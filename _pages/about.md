@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  ML/CV Engineer &middot; Researcher, <a href="https://ai4ce.github.io/" target="_blank">NYU ai4ce Lab</a>
+  Engineer &middot; Researcher, <a href="https://ai4ce.github.io/" target="_blank">NYU ai4ce Lab</a>
 
 profile:
   align: right
@@ -25,10 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an ML/CV Engineer and Researcher at the [NYU ai4ce Lab](https://ai4ce.github.io/). My work sits at the intersection of computer vision and machine learning, with a focus on building systems that see and understand the 3D world.
+I'm an ML/CV Engineer at [2K Games](https://nba.2k.com/2k26/) and Visiting Researcher at the [NYU AI4CE Lab](https://ai4ce.github.io/). I work spans from building 3D computer vision systems with a focus on building systems that see and understand the 3D world to [Vision Interpretability](https://www.lesswrong.com/posts/kobJymvvcvhbjWFKe/laying-the-foundations-for-vision-and-multimodal-mechanistic) research.
 
 My research interests include **computer vision**, **sparse autoencoders for vision transformer interpretability**, and **multi-camera 3D reconstruction**. I'm particularly interested in mechanistic interpretability for vision models — understanding _what_ and _how_ vision transformers represent the world internally.
 
 Currently, I'm leading [visaebench](#), a cross-architecture Sparse Autoencoder evaluation study training TopK SAEs on ImageNet across DINOv2-B, CLIP ViT-B/16, SigLIP, MAE ViT-B, and supervised DeiT, targeting NeurIPS 2026.
 
-On the applied side, I work on object detection, pose estimation, and 3D triangulation — problems where geometric understanding meets real-time constraints.
+On the applied side, I work on object detection, pose estimation, and 3D triangulation, animation generation for Video Games— problems where geometric understanding meets real-time constraints.
