@@ -2,7 +2,7 @@
 layout: course
 title: Data Science Bootcamp
 description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Vijay Gohil
+instructor: Adjunct Prof: Vijay Gohil
 year: 2022
 term: Fall
 location: Tandon School of Engineering, Room 202
