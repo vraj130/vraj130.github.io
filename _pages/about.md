@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Engineer &middot; Researcher, <a href="https://ai4ce.github.io/" target="_blank">NYU ai4ce Lab</a>
+  Engineer &middot; Researcher, <a href="https://ai4ce.github.io/" target="_blank">NYU AI4CE Lab</a>
 
 profile:
   align: right
