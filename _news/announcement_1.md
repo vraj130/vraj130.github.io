@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-01-01 00:00:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Started research on visaebench — cross-architecture SAE evaluation study training TopK Sparse Autoencoders on ImageNet across DINOv2, CLIP, SigLIP, MAE, and DeiT ViT backbones, targeting NeurIPS 2026.
