@@ -1,97 +1,62 @@
 ---
 layout: course
-title: Data Science Fundamentals
+title: Data Science Bootcamp
 description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
-year: 2024
-term: Spring
-location: Science Building, Room 202
+instructor: Vijay Gohil
+year: 2022
+term: Fall
+location: Tandon School of Engineering, Room 202
 time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+course_id: data-science-bootcamp
 schedule:
   - week: 1
-    date: Feb 5
-    topic: Introduction to Data Science
-    description: Overview of the data science workflow and key concepts.
+    date: Sept 19
+    topic: Introduction to Python and SQL
+    description: Overview of Python and SQL basics
     materials:
       - name: Syllabus
-        url: /assets/pdf/example_pdf.pdf
+        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/tree/main/Week1)
       - name: Slides
-        url: /assets/pdf/example_pdf.pdf
+        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week1/Week%2001_Python_SQL.pdf)
 
   - week: 2
-    date: Feb 12
-    topic: Data Collection and APIs
-    description: Methods for collecting data through APIs, web scraping, and databases.
+    date: Oct 11
+    topic: Data Wrangling Libraries
+    description: Intro to Numpy, pandas and scikit-learn.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 1
-        url: /assets/pdf/example_pdf.pdf
+      - name: Slides
+        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week2/Week%2002%20Data%20Wrangling%20Libraries.pptx)
+      - name: Notebook
+        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week2/Week%2002%20Data%20Wrangling%20Libraries.ipynb)
 
   - week: 3
-    date: Feb 19
-    topic: Data Cleaning and Preprocessing
-    description: Techniques for handling missing values, outliers, and data transformation.
+    date: Oct 22
+    topic: Exploratory Data Analysis
+    description: Introduction to exploratory data analysis techniques.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Coding Lab
-        url: https://github.com/
+      - name: - 
+        url: - 
+      - name: Notebook
+        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week3/Week3_ExploratoryDataAnalysis.ipynb)
 
   - week: 4
-    date: Feb 26
-    topic: Exploratory Data Analysis
-    description: Descriptive statistics, visualization, and pattern discovery.
+    date: Oct 29
+    topic: Data Visualization and Cleaning
+    description: Data visualization techniques and data cleaning methods.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 2
-        url: /assets/pdf/example_pdf.pdf
+      - name: - 
+        url: - 
+      - name: Notebook
+        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week4/Week4_DataVisualization_%26_Cleaning.ipynb)
 
   - week: 5
     date: Mar 4
-    topic: Statistical Analysis
-    description: Hypothesis testing, confidence intervals, and statistical inference.
+    topic: Data Science Project
+    description: Students work on a comprehensive data science project.
     materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Review Materials
-        url: /assets/pdf/example_pdf.pdf
+      - name: - 
+        url: - 
+      - name: Notebook
+        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/tree/main/Week5)
 
-  - week: 6
-    date: Mar 11
-    topic: Data Visualization
-    description: Principles and tools for effective data visualization.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 3
-        url: /assets/pdf/example_pdf.pdf
----
 
-## Course Overview
-
-This course provides a comprehensive introduction to data science principles and practices. Students will:
-
-- Learn the end-to-end data science workflow
-- Gain practical experience with data manipulation tools
-- Develop skills in data visualization and communication
-- Apply statistical methods to derive insights from data
-
-## Prerequisites
-
-- Basic programming knowledge (preferably in Python)
-- Introductory statistics
-- Comfort with basic algebra
-
-## Textbooks
-
-- "Python for Data Analysis" by Wes McKinney
-- "Data Science from Scratch" by Joel Grus
-
-## Grading
-
-- Assignments: 50%
-- Project: 40%
-- Participation: 10%
