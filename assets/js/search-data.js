@@ -124,14 +124,23 @@ ninja.data = [{
             },},{id: "news-started-research-on-visaebench-cross-architecture-sae-evaluation-study-training-topk-sparse-autoencoders-on-imagenet-across-dinov2-clip-siglip-mae-and-deit-vit-backbones-targeting-neurips-2026",
           title: 'Started research on visaebench — cross-architecture SAE evaluation study training TopK Sparse Autoencoders...',
           description: "",
+          section: "News",},{id: "news-featured-by-ai4-on-linkedin-as-a-confirmed-speaker-at-ai4-2025",
+          title: 'Featured by Ai4 on LinkedIn as a confirmed speaker at Ai4 2025.',
+          description: "",
+          section: "News",},{id: "news-featured-by-imerit-on-linkedin-in-connection-with-the-upcoming-ai4-2025-conference",
+          title: 'Featured by iMerit on LinkedIn in connection with the upcoming Ai4 2025 conference....',
+          description: "",
+          section: "News",},{id: "news-invited-as-speaker-at-ai4-2025-conference-at-mgm-grand-las-vegas-august-11-13-2025-north-america-s-premier-ai-industry-event-with-8-000-attendees-from-85-countries",
+          title: 'Invited as speaker at Ai4 2025 conference at MGM Grand, Las Vegas (August...',
+          description: "",
           section: "News",},{id: "projects-visaebench",
           title: 'visaebench',
           description: "Cross-architecture Sparse Autoencoder evaluation across ViT backbones",
           section: "Projects",handler: () => {
               window.location.href = "/projects/visaebench/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "",
+            },},{id: "teachings-data-science-bootcamp",
+          title: 'Data Science Bootcamp',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
