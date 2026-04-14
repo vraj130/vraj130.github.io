@@ -15,9 +15,9 @@ schedule:
     description: Overview of Python and SQL basics
     materials:
       - name: Syllabus
-        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/tree/main/Week1)
+        url: https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/tree/main/Week1
       - name: Slides
-        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week1/Week%2001_Python_SQL.pdf)
+        url: https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week1/Week%2001_Python_SQL.pdf
 
   - week: 2
     date: Oct 11
@@ -25,41 +25,34 @@ schedule:
     description: Intro to Numpy, pandas and scikit-learn.
     materials:
       - name: Slides
-        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week2/Week%2002%20Data%20Wrangling%20Libraries.pptx)
+        url: https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week2/Week%2002%20Data%20Wrangling%20Libraries.pptx
       - name: Notebook
-        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week2/Week%2002%20Data%20Wrangling%20Libraries.ipynb)
+        url: https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week2/Week%2002%20Data%20Wrangling%20Libraries.ipynb
 
   - week: 3
     date: Oct 22
     topic: Exploratory Data Analysis
     description: Introduction to exploratory data analysis techniques.
     materials:
-      - name: - 
-        url: - 
       - name: Notebook
-        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week3/Week3_ExploratoryDataAnalysis.ipynb)
+        url: https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week3/Week3_ExploratoryDataAnalysis.ipynb
 
   - week: 4
     date: Oct 29
     topic: Data Visualization and Cleaning
     description: Data visualization techniques and data cleaning methods.
     materials:
-      - name: - 
-        url: - 
       - name: Notebook
-        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week4/Week4_DataVisualization_%26_Cleaning.ipynb)
+        url: https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week4/Week4_DataVisualization_%26_Cleaning.ipynb
 
   - week: 5
     date: Mar 4
     topic: Data Science Project
     description: Students work on a comprehensive data science project.
     materials:
-      - name: - 
-        url: - 
       - name: Notebook
-        url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/tree/main/Week5)
-
-
+        url: https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/tree/main/Week5
+---
 
 ## Course Overview
 

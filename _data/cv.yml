@@ -179,6 +179,14 @@ cv:
         start_date: 2018-01-01
         end_date: 2018-01-01
 
+    Invited Talks:
+      - title: "AI in Practice: Industry Applications"
+        venue: Ai4 2025 Conference
+        location: MGM Grand, Las Vegas, NV
+        date: 2025-08-11
+        url: https://ai4.app.swapcard.com/event/ai4-2025/person/RXZlbnRQZW9wbGVfNDAwOTk1NDI=
+        summary: Invited speaker at North America's premier AI industry event with 8,000+ attendees from 85+ countries.
+
     References:
       - name: Professor John Doe
         icon: fa-solid fa-laptop
