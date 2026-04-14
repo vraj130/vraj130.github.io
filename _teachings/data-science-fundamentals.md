@@ -60,3 +60,29 @@ schedule:
         url: [link](https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/tree/main/Week5)
 
 
+
+## Course Overview
+
+This introductory course on data science covers fundamental concepts and techniques in the field. By the end of this course, students will be able to:
+
+- Understand key data science concepts and techniques
+- Implement basic data science algorithms
+- Evaluate and compare model performance
+- Apply data science techniques to real-world problems
+
+## Prerequisites
+
+- Basic knowledge of linear algebra and calculus
+- Programming experience in Python
+- Probability and statistics fundamentals
+
+## Textbooks
+
+- Primary: "Python Data Science Handbook" by Jake VanderPlas
+- Reference: "Hands-On Machine Learning" by Aurélien Géron
+
+## Grading
+
+- Assignments: 40%
+- Final Project: 50%
+- Participation: 10%
