@@ -121,8 +121,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-research-on-visaebench-cross-architecture-sae-evaluation-study-training-topk-sparse-autoencoders-on-imagenet-across-dinov2-clip-siglip-mae-and-deit-vit-backbones-targeting-neurips-2026",
-          title: 'Started research on visaebench — cross-architecture SAE evaluation study training TopK Sparse Autoencoders...',
+            },},{id: "news-started-research-on-vision-saebench-cross-architecture-sae-evaluation-study-training-sparse-autoencoders-on-imagenet-across-dinov2-clip-siglip-mae-and-deit-vit-backbones-targeting-neurips-2026",
+          title: 'Started research on Vision-SAEBench — cross-architecture SAE evaluation study training Sparse Autoencoders on...',
           description: "",
           section: "News",},{id: "news-featured-by-ai4-on-linkedin-as-a-confirmed-speaker-at-ai4-2025",
           title: 'Featured by Ai4 on LinkedIn as a confirmed speaker at Ai4 2025.',
@@ -138,9 +138,9 @@ ninja.data = [{
           description: "Cross-architecture Sparse Autoencoder evaluation across ViT backbones",
           section: "Projects",handler: () => {
               window.location.href = "/projects/visaebench/";
-            },},{id: "teachings-data-science-bootcamp",
-          title: 'Data Science Bootcamp',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-",
+          title: '',
+          description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-science-fundamentals/";
             },},{
