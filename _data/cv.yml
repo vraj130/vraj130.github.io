@@ -24,17 +24,6 @@ cv:
         specializations: ["Machine Learning", "Computer Vision"]
         highlights:
 
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
       - institution: Dwarkadas J. Sanghvi College of Engineering
         location: Mumbai, India
         area: Electrical and Computer Engineering
@@ -74,7 +63,6 @@ cv:
           - Improved model accuracy by 7% through noise augmentation to improve the robustness of the models for better feature convergence.
           - Implemented the model using EfficientNet as backbone with a custom set of 21 layers.
 
-
       - company: DJ. Sanghvi College of Engineering
         position: Machine Learning Researcher
         employment_type: Part-time
@@ -92,7 +80,7 @@ cv:
         location: Mumbai, India
         employment_type: Full-time
         start_date: "2019-06"
-        end_date: "2019-08
+        end_date: "2019-08"
         highlights:
           - Developed an UI based Image annotation software using Matlab GUI toolbox. 
           - Trained a Dense Neural Network using HOG and LBP based feature descriptors for multi-class classification on vehicle data.
