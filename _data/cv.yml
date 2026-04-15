@@ -1,11 +1,11 @@
 cv:
   name: Vijay Gohil
-  email: vijay.gohil@nyu.edu
-  location: New York, NY
+  email: vrajgohil130@gmail.com
+  location: Bay Area, San Francisco, CA
 
   social_networks:
     - network: X
-      username: vijaygohil
+      username: vijayygohil
     - network: GitHub
       username: vraj130
     - network: LinkedIn
@@ -13,18 +13,17 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: New York University
+        location: New York, NY
+        url: https://www.nyu.edu/
+        area: Computer Science
+        studyType: Master's
+        start_date: 2021
+        end_date: 2022
         score: ""
-        courses: "Theory of Relativity"
+        specializations: ["Machine Learning", "Computer Vision"]
         highlights:
-          - Description 1.
-          - Description 2.
+
 
       - institution: Eidgenössische Technische Hochschule
         location: Zurich, Switzerland
@@ -36,54 +35,71 @@ cv:
           - Description 1.
           - Description 2.
 
+      - institution: Dwarkadas J. Sanghvi College of Engineering
+        location: Mumbai, India
+        area: Electrical and Computer Engineering
+        studyType: Bachelor's
+        start_date: 2016
+        end_date: 2020
+        highlights:
+
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: 2K Games / Visual Concepts
+        position: Machine Learning Engineer
+        location: San Francisco, CA
+        employment_type: Full-time
+        start_date: "2023-02"
+        end_date: present
+
+      - company: New York University
+        position: Data Science Instructor
+        location: New York, NY
+        employment_type: Part-time
+        start_date: "2022-09"
+        end_date: "2022-12"
         highlights:
-          - Relativity
-          - Description 2.
+          - Taught Foundations of Data Science to a class of 300+ graduate students, 150+ undergraduate students.
+          - Expanded concepts in SQL, Python and Data Science while teaching concepts such as supervised and unsupervised learning, model selection, and model training.
+          - Created datasets for training, model selection, and model training.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Grubbrr
+        position: Machine Learning Engineer
+        employment_type: Full-time
+        start_date: "2022-05"
+        end_date: "2022-08"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Built a Self-Checkout System for Retail stores using Computer Vision-based Object detection and classification.
+          - Evaluated the accuracy and latency trade-off of various object detection models to improve performance.
+          - Improved model accuracy from 78% to 83%, improving detection by 70% to reduce checkout time by 50 seconds.
+          - Improved model accuracy by 7% through noise augmentation to improve the robustness of the models for better feature convergence.
+          - Implemented the model using EfficientNet as backbone with a custom set of 21 layers.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: DJ. Sanghvi College of Engineering
+        position: Machine Learning Researcher
+        employment_type: Part-time
+        start_date: "2020-11"
+        end_date: "2021-02"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Worked on a Fine-Grained Visual Competition Dataset of Foliar leaf diseases on apple plant leaves dataset with 18k images.
+          - Applied image hashing and image augmentation and data sampling to handle imbalanced dataset classes to increase model accuracy by 7%.
+          - Created data preprocessing pipelines and augmentation with adding noise to improve the robustness of the model.
+          - Implemented hyper-parameter search resulting in optimal setting for faster convergence while achieving 82% accuracy over validation and test sets.
+          - Implemented the following model using the EfficientNet-b4 backbone and a custom set of FC layers.
+        
+      - company: Indian Institute of Technology, Bombay
+        position: Research Engineer
+        location: Mumbai, India
+        employment_type: Full-time
+        start_date: "2019-06"
+        end_date: "2019-08
+        highlights:
+          - Developed an UI based Image annotation software using Matlab GUI toolbox. 
+          - Trained a Dense Neural Network using HOG and LBP based feature descriptors for multi-class classification on vehicle data.
+          - Developed a semi-automated Interface to acquire images and apply a running window algorithm to save images with various sets of augmentation.
+          - The program can be used for semi-automated Image data annotation, with minimal human intervention.
+          - Developed the code for transferring trained neural Networks over the different platforms (Matlab to Python).
+
 
     Awards:
       - title: Nobel Prize in Physics
