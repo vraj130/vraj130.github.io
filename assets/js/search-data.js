@@ -18,61 +18,40 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "publications by categories in reversed chronological order.",
+          description: "Publications and preprints in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research and engineering projects across vision, interpretability, and applied ML.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "Selected GitHub repositories and profile activity.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "CV available upon request.",
+          description: "Selected experience, publications, and links to a downloadable CV.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "Teaching, bootcamps, and course material from past instruction.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-should-developers-care-about-interpretability",
+        },{id: "post-should-developers-care-about-interpretability",
         
           title: "Should Developers Care about Interpretability?",
         
@@ -94,34 +73,7 @@ ninja.data = [{
             window.location.href = "/blog/2025/llm-powered-sorting-with-trueskill/";
           
         },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-research-on-vision-saebench-cross-architecture-sae-evaluation-study-training-sparse-autoencoders-on-imagenet-across-dinov2-clip-siglip-mae-and-deit-vit-backbones-targeting-neurips-2026",
+      },{id: "news-started-research-on-vision-saebench-cross-architecture-sae-evaluation-study-training-sparse-autoencoders-on-imagenet-across-dinov2-clip-siglip-mae-and-deit-vit-backbones-targeting-neurips-2026",
           title: 'Started research on Vision-SAEBench — cross-architecture SAE evaluation study training Sparse Autoencoders on...',
           description: "",
           section: "News",},{id: "news-featured-by-ai4-on-linkedin-as-a-confirmed-speaker-at-ai4-2025",
@@ -133,14 +85,14 @@ ninja.data = [{
           section: "News",},{id: "news-invited-as-speaker-at-ai4-2025-conference-at-mgm-grand-las-vegas-august-11-13-2025-north-america-s-premier-ai-industry-event-with-8-000-attendees-from-85-countries",
           title: 'Invited as speaker at Ai4 2025 conference at MGM Grand, Las Vegas (August...',
           description: "",
-          section: "News",},{id: "projects-visaebench",
-          title: 'visaebench',
+          section: "News",},{id: "projects-vision-saebench",
+          title: 'Vision-SAEBench',
           description: "Cross-architecture Sparse Autoencoder evaluation across ViT backbones",
           section: "Projects",handler: () => {
               window.location.href = "/projects/visaebench/";
-            },},{id: "teachings-",
-          title: '',
-          description: "",
+            },},{id: "teachings-foundations-of-data-science-bootcamp",
+          title: 'Foundations of Data Science Bootcamp',
+          description: "Practical introduction to Python, SQL, data wrangling, exploratory analysis, and basic machine learning concepts.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-science-fundamentals/";
             },},{
@@ -148,14 +100,14 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/rendercv/rendercv_output/Vijay_Gohil_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:", "_blank");
+          window.open("mailto:%76%72%61%6A%67%6F%68%69%6C%31%33%30@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
@@ -163,13 +115,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/vraj130", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/vijayygohil", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -184,6 +129,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=hVRKZj4AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/vijayygohil", "_blank");
         },
       },{
         id: 'social-rss',
