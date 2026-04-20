@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - vraj130
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - vraj130/vraj130.github.io
+  - vraj130/NYU-Fall-22-DataScience-BootCamp

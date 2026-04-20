@@ -1,14 +1,14 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: # your email address
-github_username: vraj130 # your GitHub username
-x_username: vijayygohil # your Twitter/X username
-linkedin_username: vijaygohil # your LinkedIn username
-scholar_userid: hVRKZj4AAAAJ # your Google Scholar ID
-rss_icon: true # comment this line to hide the RSS icon
-custom_social: # OpenReview profile
+cv_pdf: /assets/rendercv/rendercv_output/Vijay_Gohil_CV.pdf # path to your CV PDF file
+email: vrajgohil130@gmail.com
+github_username: vraj130
+linkedin_username: vijaygohil
+scholar_userid: hVRKZj4AAAAJ
+x_username: vijayygohil
+rss_icon: true
+custom_social:
   logo: https://openreview.net/favicon.ico
   title: OpenReview
   url: https://openreview.net/profile?id=~Vijayrajsinh_Gohil1

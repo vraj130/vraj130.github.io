@@ -1,14 +1,13 @@
 ---
 layout: page
-title: visaebench
+title: Vision-SAEBench
 description: Cross-architecture Sparse Autoencoder evaluation across ViT backbones
-img: assets/img/proj_visaebench.jpg
 importance: 1
 category: research
 related_publications: false
 ---
 
-**visaebench** is a cross-architecture evaluation study for Sparse Autoencoders (SAEs) trained on vision transformers. We train TopK SAEs on ImageNet patch representations across five ViT backbones and systematically evaluate the quality, sparsity, and transferability of the learned features.
+**Vision-SAEBench** is a cross-architecture evaluation study for sparse autoencoders trained on vision transformers. The project compares TopK SAE behavior on ImageNet patch representations across several widely used ViT backbones and measures how feature quality, sparsity, and transferability change across pretraining regimes.
 
 ## Backbones
 
@@ -20,8 +19,10 @@ related_publications: false
 
 ## Motivation
 
-Sparse Autoencoders have emerged as a promising tool for mechanistic interpretability in language models, decomposing activations into human-interpretable features. This project extends that lens to vision transformers, asking: do SAE features differ meaningfully across pretraining objectives? Are certain backbones more interpretable than others?
+Sparse autoencoders have become a promising tool for mechanistic interpretability in language models by decomposing activations into more interpretable features. This project brings the same lens to vision transformers and asks whether different pretraining objectives produce measurably different interpretability profiles.
 
-## Target
+## Scope
 
-NeurIPS 2026.
+- Backbone families: DINOv2, CLIP, SigLIP, MAE, and DeiT
+- Core evaluations: reconstruction quality, sparsity, transfer, and qualitative feature inspection
+- Goal: build a more rigorous benchmark for comparing interpretability methods across vision models

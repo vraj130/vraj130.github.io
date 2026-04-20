@@ -7,10 +7,14 @@ tags: llm ranking
 categories: ml
 ---
 
-Some things are easier to compare than to score. Ask someone to rate a photo from 1–10 and you'll get noise; ask them which of two photos they prefer and you'll get signal. The same dynamic shows up when using LLMs as judges: pairwise comparisons tend to be more reliable than absolute scores.
+Some problems are easier to compare than to score. Ask someone to rate a photo from 1 to 10 and you usually get noise. Ask them to choose between two photos and you get a much cleaner signal. The same pattern shows up with LLMs acting as judges: pairwise comparisons are often more stable than absolute ratings.
 
-TrueSkill — originally designed for Xbox Live matchmaking — offers a principled Bayesian framework for maintaining skill estimates from pairwise outcomes. Pair it with an LLM judge and you get a surprisingly effective sorting pipeline for anything that resists direct scoring: creative writing, research directions, design options, and more.
+TrueSkill, originally designed for Xbox Live matchmaking, gives you a principled Bayesian way to update rankings from head-to-head outcomes. Paired with an LLM judge, it becomes a useful sorting pipeline for anything that resists direct scoring: design options, writing samples, research ideas, or open-ended product directions.
 
-This post walks through the approach, the tradeoffs, and some practical lessons from building it.
+The basic loop is straightforward. Sample a pair of candidates, ask the model for a winner under a clear rubric, feed the result into the ranking system, and repeat until the uncertainty narrows. You do not need a perfect judge for this to work. You need a judge that is reasonably consistent and a ranking system that can absorb uncertainty.
 
-_Full write-up coming soon._
+What matters in practice is prompt discipline. If the evaluation rubric shifts from comparison to comparison, the ranking becomes incoherent. Strong results come from fixed criteria, randomized order, and occasional human spot checks on edge cases. Without that, you end up ranking prompt sensitivity rather than the items themselves.
+
+The other tradeoff is cost. Pairwise ranking scales better than exhaustive scoring for ambiguous tasks, but it still grows with the number of comparisons. That makes active sampling important: spend calls where uncertainty is high instead of comparing obviously separated items.
+
+I like this approach because it treats LLMs as noisy preference engines instead of magical scorers. That framing is more honest, and it usually produces better rankings.

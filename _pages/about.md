@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Engineer &middot; Researcher, <a href="https://ai4ce.github.io/" target="_blank">NYU AI4CE Lab</a>
+  Machine Learning Engineer at 2K Games &middot; Visiting Researcher at <a href="https://ai4ce.github.io/" target="_blank">NYU AI4CE Lab</a>
 
 profile:
   align: right
@@ -25,10 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an ML/CV Engineer at [2K Games](https://nba.2k.com/2k26/) and Visiting Researcher at the [NYU AI4CE Lab](https://ai4ce.github.io/). I work spans from building 3D computer vision systems with a focus on building systems that see and understand the 3D world to [Vision Interpretability](https://www.lesswrong.com/posts/kobJymvvcvhbjWFKe/laying-the-foundations-for-vision-and-multimodal-mechanistic) research.
+I'm a machine learning and computer vision engineer at [2K Games](https://nba.2k.com/2k26/) and a visiting researcher at the [NYU AI4CE Lab](https://ai4ce.github.io/). My work sits at the intersection of production ML systems and research, with a focus on 3D perception, multiview reasoning, and vision interpretability.
 
-My research interests include **computer vision**, **sparse autoencoders for vision transformer interpretability**, and **multi-camera 3D reconstruction**. I'm particularly interested in mechanistic interpretability for vision models — understanding _what_ and _how_ vision transformers represent the world internally.
+My research interests include **computer vision**, **sparse autoencoders for vision transformer interpretability**, and **multi-camera 3D reconstruction**. I'm particularly interested in mechanistic interpretability for vision models: understanding what vision transformers represent internally and how those representations can be measured, compared, and improved.
 
-Currently, I'm leading [visaebench](#), a cross-architecture Sparse Autoencoder evaluation study training TopK SAEs on ImageNet across DINOv2-B, CLIP ViT-B/16, SigLIP, MAE ViT-B, and supervised DeiT, targeting NeurIPS 2026.
+I'm currently leading [Vision-SAEBench](/projects/), a cross-architecture sparse autoencoder evaluation effort training TopK SAEs on ImageNet representations from DINOv2-B, CLIP ViT-B/16, SigLIP, MAE ViT-B, and supervised DeiT.
 
-On the applied side, I work on object detection, pose estimation, and 3D triangulation, animation generation for Video Games— problems where geometric understanding meets real-time constraints.
+On the applied side, I work on object detection, pose estimation, 3D triangulation, and animation-adjacent ML tooling for video games, where geometric understanding has to meet production reliability and real-time constraints.

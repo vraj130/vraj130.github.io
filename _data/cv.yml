@@ -1,15 +1,19 @@
 cv:
   name: Vijay Gohil
+  label: Machine Learning Engineer
   email: vrajgohil130@gmail.com
-  location: Bay Area, San Francisco, CA
+  location: San Francisco Bay Area, CA
+  website: https://vijaygohil.com
+  summary: >
+    Machine learning and computer vision engineer working on production perception systems and research in vision interpretability. My recent work spans multiview 3D geometry, pose estimation, object detection, and sparse autoencoders for vision transformers.
 
   social_networks:
-    - network: X
-      username: vijayygohil
     - network: GitHub
       username: vraj130
     - network: LinkedIn
       username: vijaygohil
+    - network: X
+      username: vijayygohil
 
   sections:
     Education:
@@ -17,19 +21,17 @@ cv:
         location: New York, NY
         url: https://www.nyu.edu/
         area: Computer Science
-        studyType: Master's
+        studyType: Master of Science
         start_date: 2021
         end_date: 2022
         highlights:
-          - "Specializations: Machine Learning, Computer Vision"
-
+          - Specialization in machine learning and computer vision.
       - institution: Dwarkadas J. Sanghvi College of Engineering
         location: Mumbai, India
         area: Electrical and Computer Engineering
-        studyType: Bachelor's
+        studyType: Bachelor of Engineering
         start_date: 2016
         end_date: 2020
-        highlights:
 
     Experience:
       - company: 2K Games / Visual Concepts
@@ -37,104 +39,98 @@ cv:
         location: San Francisco, CA
         start_date: "2023-02"
         end_date: present
-
+        highlights:
+          - Build machine learning systems for real-time game production workflows.
+          - Work across object detection, pose estimation, multiview geometry, and animation-related tooling.
+      - company: NYU AI4CE Lab
+        position: Visiting Researcher
+        location: New York, NY
+        url: https://ai4ce.github.io/
+        start_date: 2025
+        end_date: present
+        highlights:
+          - Lead Vision-SAEBench, a cross-architecture sparse autoencoder evaluation study for vision transformers.
+          - Study interpretability and representation quality across DINOv2, CLIP, SigLIP, MAE, and DeiT backbones.
       - company: New York University
         position: Data Science Instructor
         location: New York, NY
         start_date: "2022-09"
         end_date: "2022-12"
         highlights:
-          - Taught Foundations of Data Science to a class of 300+ graduate students, 150+ undergraduate students.
-          - Expanded concepts in SQL, Python and Data Science while teaching concepts such as supervised and unsupervised learning, model selection, and model training.
-          - Created datasets for training, model selection, and model training.
-
+          - Taught Foundations of Data Science to large graduate and undergraduate cohorts.
+          - Covered SQL, Python, data analysis, supervised learning, and model evaluation.
       - company: Grubbrr
         position: Machine Learning Engineer
+        location: New York, NY
         start_date: "2022-05"
         end_date: "2022-08"
         highlights:
-          - Built a Self-Checkout System for Retail stores using Computer Vision-based Object detection and classification.
-          - Evaluated the accuracy and latency trade-off of various object detection models to improve performance.
-          - Improved model accuracy from 78% to 83%, improving detection by 70% to reduce checkout time by 50 seconds.
-          - Improved model accuracy by 7% through noise augmentation to improve the robustness of the models for better feature convergence.
-          - Implemented the model using EfficientNet as backbone with a custom set of 21 layers.
-
-      - company: DJ. Sanghvi College of Engineering
+          - Built a computer-vision self-checkout system for retail environments.
+          - Improved model robustness and deployment performance across detection and classification pipelines.
+      - company: Dwarkadas J. Sanghvi College of Engineering
         position: Machine Learning Researcher
+        location: Mumbai, India
         start_date: "2020-11"
         end_date: "2021-02"
         highlights:
-          - Worked on a Fine-Grained Visual Competition Dataset of Foliar leaf diseases on apple plant leaves dataset with 18k images.
-          - Applied image hashing and image augmentation and data sampling to handle imbalanced dataset classes to increase model accuracy by 7%.
-          - Created data preprocessing pipelines and augmentation with adding noise to improve the robustness of the model.
-          - Implemented hyper-parameter search resulting in optimal setting for faster convergence while achieving 82% accuracy over validation and test sets.
-          - Implemented the following model using the EfficientNet-b4 backbone and a custom set of FC layers.
-        
-      - company: Indian Institute of Technology, Bombay
+          - Worked on fine-grained plant disease classification with large-scale image datasets.
+          - Built preprocessing, augmentation, and hyperparameter search pipelines to improve accuracy and convergence.
+      - company: Indian Institute of Technology Bombay
         position: Research Engineer
         location: Mumbai, India
         start_date: "2019-06"
         end_date: "2019-08"
         highlights:
-          - Developed an UI based Image annotation software using Matlab GUI toolbox. 
-          - Trained a Dense Neural Network using HOG and LBP based feature descriptors for multi-class classification on vehicle data.
-          - Developed a semi-automated Interface to acquire images and apply a running window algorithm to save images with various sets of augmentation.
-          - The program can be used for semi-automated Image data annotation, with minimal human intervention.
-          - Developed the code for transferring trained neural Networks over the different platforms (Matlab to Python).
-
+          - Developed tooling for image annotation, feature extraction, and vehicle classification experiments.
+          - Built cross-platform workflows to move models and datasets between MATLAB and Python environments.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: Scene Change Detection with Vision-Language Representation Learning
+        publisher: arXiv
+        releaseDate: 2026-04-01
+        url: https://arxiv.org/abs/2604.11402
+        summary: Vision-language approach to scene change detection with collaborators across academia and industry.
+      - title: Feature Fusion and Dataset Generator for Vehicle Classification and Ranging
+        publisher: 2019 International Conference on Advances in Computing, Communication and Control
+        releaseDate: 2019-01-01
+        url: https://ieeexplore.ieee.org/document/9036795
+        summary: Early work on feature fusion and dataset tooling for vehicle classification and ranging.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
+      - name: Machine Learning
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords:
+          - PyTorch
+          - Representation learning
+          - Model evaluation
+          - Training pipelines
+      - name: Computer Vision
+        level: Advanced
+        icon: fa-solid fa-camera
+        keywords:
+          - Object detection
+          - Pose estimation
+          - Multiview geometry
+          - 3D reconstruction
+      - name: Engineering
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords:
+          - Python
+          - Experiment tooling
+          - Data pipelines
+          - Production ML systems
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Research Interests
+        icon: fa-solid fa-microscope
+        keywords:
+          - Mechanistic interpretability for vision models
+          - Sparse autoencoders
+          - Multicamera 3D understanding
+          - Representation learning
 
     Invited Talks:
-      - name: "AI in Practice: Industry Applications"
-        date: 2025-08-11
-        location: MGM Grand, Las Vegas, NV
-        url: https://ai4.app.swapcard.com/event/ai4-2025/person/RXZlbnRQZW9wbGVfNDAwOTk1NDI=
-        highlights:
-          - Ai4 2025 Conference — Invited speaker at North America's premier AI industry event with 8,000+ attendees from 85+ countries.
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - label: Ai4 2025
+        details: Invited speaker on AI in practice and industry applications at Ai4 2025 in Las Vegas.

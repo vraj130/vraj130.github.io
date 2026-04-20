@@ -2,12 +2,10 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching, bootcamps, and course material from past instruction.
 nav: true
 nav_order: 6
-calendar: true
 ---
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+I have taught data science coursework at NYU, with an emphasis on practical Python, SQL, and applied machine learning foundations.
 
 {% include courses.liquid %}

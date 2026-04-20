@@ -1,12 +1,12 @@
 ---
 layout: course
-title: Data Science Bootcamp
-description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Adjunct Prof: Vijay Gohil
+title: Foundations of Data Science Bootcamp
+description: Practical introduction to Python, SQL, data wrangling, exploratory analysis, and basic machine learning concepts.
+instructor: Vijay Gohil
 year: 2022
 term: Fall
-location: Tandon School of Engineering, Room 202
-time: Mondays and Wednesdays, 2:00-3:30 PM
+location: New York University
+time: Fall 2022
 course_id: data-science-bootcamp
 schedule:
   - week: 1
@@ -46,7 +46,7 @@ schedule:
         url: https://github.com/vraj130/NYU-Fall-22-DataScience-BootCamp/blob/main/Week4/Week4_DataVisualization_%26_Cleaning.ipynb
 
   - week: 5
-    date: Mar 4
+    date: Nov 4
     topic: Data Science Project
     description: Students work on a comprehensive data science project.
     materials:
@@ -56,26 +56,26 @@ schedule:
 
 ## Course Overview
 
-This introductory course on data science covers fundamental concepts and techniques in the field. By the end of this course, students will be able to:
+This course introduced students to the practical foundations of modern data science. By the end of the bootcamp, students were able to:
 
-- Understand key data science concepts and techniques
-- Implement basic data science algorithms
-- Evaluate and compare model performance
-- Apply data science techniques to real-world problems
+- Work comfortably with Python and SQL for data tasks
+- Clean, explore, and visualize real-world datasets
+- Train and compare baseline machine learning models
+- Present findings from data with clear analysis and supporting material
 
 ## Prerequisites
 
-- Basic knowledge of linear algebra and calculus
-- Programming experience in Python
-- Probability and statistics fundamentals
+- Comfort with introductory programming
+- Basic probability and statistics
+- Willingness to work with hands-on assignments
 
 ## Textbooks
 
-- Primary: "Python Data Science Handbook" by Jake VanderPlas
-- Reference: "Hands-On Machine Learning" by Aurélien Géron
+- "Python Data Science Handbook" by Jake VanderPlas
+- "Hands-On Machine Learning" by Aurélien Géron
 
 ## Grading
 
-- Assignments: 40%
-- Final Project: 50%
+- Weekly exercises: 40%
+- Final project: 50%
 - Participation: 10%
