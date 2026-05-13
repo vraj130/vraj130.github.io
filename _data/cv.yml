@@ -1,11 +1,9 @@
 cv:
   name: Vijay Gohil
-  label: Machine Learning Engineer
+  headline: Machine Learning Engineer
   email: vrajgohil130@gmail.com
   location: San Francisco Bay Area, CA
   website: https://vijaygohil.com
-  summary: >
-    Machine learning and computer vision engineer working on production perception systems and research in vision interpretability. My recent work spans multiview 3D geometry, pose estimation, object detection, and sparse autoencoders for vision transformers.
 
   social_networks:
     - network: GitHub
@@ -16,12 +14,15 @@ cv:
       username: vijayygohil
 
   sections:
+    Summary:
+      - Machine learning and computer vision engineer working on production perception systems and research in vision interpretability. My recent work spans multiview 3D geometry, pose estimation, object detection, and sparse autoencoders for vision transformers.
+
     Education:
       - institution: New York University
         location: New York, NY
         url: https://www.nyu.edu/
         area: Computer Science
-        studyType: Master of Science
+        degree: MS
         start_date: 2021
         end_date: 2022
         highlights:
@@ -29,7 +30,7 @@ cv:
       - institution: Dwarkadas J. Sanghvi College of Engineering
         location: Mumbai, India
         area: Electrical and Computer Engineering
-        studyType: Bachelor of Engineering
+        degree: BE
         start_date: 2016
         end_date: 2020
 
@@ -85,50 +86,36 @@ cv:
 
     Publications:
       - title: Scene Change Detection with Vision-Language Representation Learning
-        publisher: arXiv
-        releaseDate: 2026-04-01
+        authors:
+          - "*Vijay Gohil*"
+        journal: arXiv
+        date: 2026-04-01
         url: https://arxiv.org/abs/2604.11402
-        summary: Vision-language approach to scene change detection with collaborators across academia and industry.
       - title: Feature Fusion and Dataset Generator for Vehicle Classification and Ranging
-        publisher: 2019 International Conference on Advances in Computing, Communication and Control
-        releaseDate: 2019-01-01
+        authors:
+          - "*Vijay Gohil*"
+        journal: 2019 International Conference on Advances in Computing, Communication and Control
+        date: 2019-01-01
         url: https://ieeexplore.ieee.org/document/9036795
-        summary: Early work on feature fusion and dataset tooling for vehicle classification and ranging.
 
     Skills:
-      - name: Machine Learning
+      - label: Machine Learning
+        details: PyTorch, Representation learning, Model evaluation, Training pipelines
         level: Advanced
         icon: fa-solid fa-brain
-        keywords:
-          - PyTorch
-          - Representation learning
-          - Model evaluation
-          - Training pipelines
-      - name: Computer Vision
+      - label: Computer Vision
+        details: Object detection, Pose estimation, Multiview geometry, 3D reconstruction
         level: Advanced
         icon: fa-solid fa-camera
-        keywords:
-          - Object detection
-          - Pose estimation
-          - Multiview geometry
-          - 3D reconstruction
-      - name: Engineering
+      - label: Engineering
+        details: Python, Experiment tooling, Data pipelines, Production ML systems
         level: Advanced
         icon: fa-solid fa-code
-        keywords:
-          - Python
-          - Experiment tooling
-          - Data pipelines
-          - Production ML systems
 
     Interests:
-      - name: Research Interests
+      - label: Research Interests
+        details: Mechanistic interpretability for vision models, Sparse autoencoders, Multicamera 3D understanding, Representation learning
         icon: fa-solid fa-microscope
-        keywords:
-          - Mechanistic interpretability for vision models
-          - Sparse autoencoders
-          - Multicamera 3D understanding
-          - Representation learning
 
     Invited Talks:
       - label: Ai4 2025
