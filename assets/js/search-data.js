@@ -73,10 +73,7 @@ ninja.data = [{
             window.location.href = "/blog/2025/llm-powered-sorting-with-trueskill/";
           
         },
-      },{id: "news-started-research-on-vision-saebench-cross-architecture-sae-evaluation-study-training-sparse-autoencoders-on-imagenet-across-dinov2-clip-siglip-mae-and-deit-vit-backbones-targeting-neurips-2026",
-          title: 'Started research on Vision-SAEBench — cross-architecture SAE evaluation study training Sparse Autoencoders on...',
-          description: "",
-          section: "News",},{id: "news-featured-by-ai4-on-linkedin-as-a-confirmed-speaker-at-ai4-2025",
+      },{id: "news-featured-by-ai4-on-linkedin-as-a-confirmed-speaker-at-ai4-2025",
           title: 'Featured by Ai4 on LinkedIn as a confirmed speaker at Ai4 2025.',
           description: "",
           section: "News",},{id: "news-featured-by-imerit-on-linkedin-in-connection-with-the-upcoming-ai4-2025-conference",
@@ -85,12 +82,7 @@ ninja.data = [{
           section: "News",},{id: "news-invited-as-speaker-at-ai4-2025-conference-at-mgm-grand-las-vegas-august-11-13-2025-north-america-s-premier-ai-industry-event-with-8-000-attendees-from-85-countries",
           title: 'Invited as speaker at Ai4 2025 conference at MGM Grand, Las Vegas (August...',
           description: "",
-          section: "News",},{id: "projects-vision-saebench",
-          title: 'Vision-SAEBench',
-          description: "Cross-architecture Sparse Autoencoder evaluation across ViT backbones",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/visaebench/";
-            },},{id: "teachings-foundations-of-data-science-bootcamp",
+          section: "News",},{id: "teachings-foundations-of-data-science-bootcamp",
           title: 'Foundations of Data Science Bootcamp',
           description: "Practical introduction to Python, SQL, data wrangling, exploratory analysis, and basic machine learning concepts.",
           section: "Teachings",handler: () => {
