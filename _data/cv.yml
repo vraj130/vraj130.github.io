@@ -49,8 +49,7 @@ cv:
         start_date: 2025
         end_date: present
         highlights:
-          - Lead Vision-SAEBench, a cross-architecture sparse autoencoder evaluation study for vision transformers.
-          - Study interpretability and representation quality across DINOv2, CLIP, SigLIP, MAE, and DeiT backbones.
+          - Research on representation learning and interpretability for vision transformers.
       - company: New York University
         position: Data Science Instructor
         location: New York, NY

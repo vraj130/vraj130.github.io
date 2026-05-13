@@ -5,6 +5,7 @@ description: Cross-architecture Sparse Autoencoder evaluation across ViT backbon
 importance: 1
 category: research
 related_publications: false
+published: false
 ---
 
 **Vision-SAEBench** is a cross-architecture evaluation study for sparse autoencoders trained on vision transformers. The project compares TopK SAE behavior on ImageNet patch representations across several widely used ViT backbones and measures how feature quality, sparsity, and transferability change across pretraining regimes.

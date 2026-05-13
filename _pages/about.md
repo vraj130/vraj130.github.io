@@ -27,8 +27,6 @@ latest_posts:
 
 I'm a machine learning and computer vision engineer at [2K Games](https://nba.2k.com/2k26/) and a visiting researcher at the [NYU AI4CE Lab](https://ai4ce.github.io/). My work sits at the intersection of production ML systems and research, with a focus on 3D perception, multiview reasoning, and vision interpretability.
 
-My research interests include **computer vision**, **sparse autoencoders for vision transformer interpretability**, and **multi-camera 3D reconstruction**. I'm particularly interested in mechanistic interpretability for vision models: understanding what vision transformers represent internally and how those representations can be measured, compared, and improved.
-
-I'm currently leading [Vision-SAEBench](/projects/), a cross-architecture sparse autoencoder evaluation effort training TopK SAEs on ImageNet representations from DINOv2-B, CLIP ViT-B/16, SigLIP, MAE ViT-B, and supervised DeiT.
+My research interests include **computer vision**, **vision transformer interpretability**, and **multi-camera 3D reconstruction**. I'm particularly interested in mechanistic interpretability for vision models: understanding what vision transformers represent internally and how those representations can be measured, compared, and improved.
 
 On the applied side, I work on object detection, pose estimation, 3D triangulation, and animation-adjacent ML tooling for video games, where geometric understanding has to meet production reliability and real-time constraints.
