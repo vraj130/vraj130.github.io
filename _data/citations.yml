@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-08-10'
 papers:
   hVRKZj4AAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -8,11 +8,15 @@ papers:
   hVRKZj4AAAAJ:9yKSN-GCB0IC:
     citations: 0
     title: 'ViSAEBench: Cross-Backbone Evaluation of Vision Sparse Autoencoders Reveals Backbone-Dominated Variance and Metric Dissociations'
-    year: Unknown Year
+    year: '2026'
   hVRKZj4AAAAJ:d1gkVwhDpl0C:
     citations: 1
     title: Feature Fusion and Dataset Generator for Vehicle Classification & Ranging
     year: '2019'
+  hVRKZj4AAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: Scene Change Detection with Vision-Language Representation Learning
+    year: '2026'
   hVRKZj4AAAAJ:u-x6o8ySG0sC:
     citations: 0
     title: 2019 IEEE International Conference on Advances In Computing, Communication And Control
